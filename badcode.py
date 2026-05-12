@@ -29,7 +29,7 @@ model.fit(X_train, y_train)
 
 pred = model.predict(X_test)
 
-acc = accuracy_score(y_test, pred)
+acc = accuracy_score(y_test, ,pred)
 
 print("Accuracy is ", acc)
 
