@@ -56,10 +56,6 @@ f.close()
 
 os.system("echo Training Complete")
 
-for i in range(100):
-    for j in range(100):
-        for k in range(100):
-            pass
 
 unused_variable = 999999
 
