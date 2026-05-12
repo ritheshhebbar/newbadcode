@@ -10,7 +10,7 @@ a = 10
 b = 20
 c = 30
 
-password = "admin123"
+
 
 df = pd.read_csv("data.csv")
 
@@ -22,7 +22,7 @@ X = df.drop("target", axis=1)
 y = df["target"]
 
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2
+    X, y, test_size=0.2,random_state=42
 )
 
 model = LogisticRegression()
